@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="./assets/bootstrap-5.3.0/css/bootstrap.css" rel="stylesheet">
+    <link href="./assets/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <title>Learn BT5</title>
+</head>
+<body>
+    <div class="app">
+        <div class="container-fluid vh-100 position-relative" style="background-image: url(./assets/imgs/background-1.png); background-size: cover; overflow: hidden; background-position: right bottom">
+            <header class="header d-flex justify-content-between align-items-center">
+                <div class="header-logo">
+                    <img src="./assets/imgs/logo.png" alt="">
+                </div>
+                <div class="header-action d-none d-md-flex">
+                    <ul>
+                        <!-- <li><a href="#">Tính năng</a></li> -->
+                        <li><a href="https://vnpt.com.vn/tin-tuc/vnedu-he-sinh-thai-giao-duc-so-toan-dien.html">Về chúng tôi</a></li>
+                        <li><a href="https://vnedu.vn/lien-he">Liên hệ</a></li>
+                    </ul>
+                    <!-- <button>
+                        ĐĂNG NHẬP
+                    </button> -->
+                </div>
+                <button class="btn d-md-none " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+                    aria-controls="offcanvasExample">
+                    <i class="fa-solid fa-bars offcanvas-icon"></i>
+                </button>
+                
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasExampleLabel">THƯ VIỆN SỐ</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="header-action d-flex flex-column">
+                            <ul class="d-flex flex-column align-items-start">
+                                <!-- <li class="mt-3"><a href="#">Tính năng</a></li> -->
+                                <li class="mt-3"><a href="https://vnpt.com.vn/tin-tuc/vnedu-he-sinh-thai-giao-duc-so-toan-dien.html">Về chúng tôi</a></li>
+                                <li class="mt-3"><a href="https://vnedu.vn/lien-he">Liên hệ</a></li>
+                            </ul>
+                            <!-- <button class="mt-3">
+                                ĐĂNG NHẬP
+                            </button> -->
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="header-content row">
+                <div class="col-md-5 header-content-po">
+                    <div class="header-content-text ">
+                        <img src="./assets/imgs/book.png" alt="">
+                        <h2>THƯ VIỆN SỐ</h2>
+                        <P>Thư viện số là một hệ thống thư viện trực tuyến, cho phép người dùng truy cập và tìm kiếm tài liệu trên internet bằng
+                            các thiết bị kết nối internet. Các tài liệu trong thư viện số có thể là tài nguyên thông tin, học liệu điện tử, …</P>
+                            <div class="text-center">
+                                <img src="./assets/imgs/Isolation_Mode.png" alt="">
+                            </div>
+                    </div>
+                </div>
+                <div class="background-user col-md-7" >
+                    <img src="./assets/imgs/user-1.png" alt="" >
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid pd-80 container-content">
+            <div class="benefit d-flex flex-column justify-content-center align-items-center">
+                <div class="benefit-header d-flex flex-column justify-content-center align-items-center position-relative">
+                    <div class="d-flex justify-content-center"> 
+                        <h2>Lợi ích </h2>
+                        <h2>triển khai thư viện số</h2>
+                    </div>
+                    <span class="text-center">Mang đến nhiều lợi ích cho nhiều đối tượng sử dụng</span>
+                    <img class="book-benefit" src="./assets/imgs/book-1.png" alt="">
+                </div>
+                <div class="benefit-content row">
+                        <div class="benefit-infor col-md-4 col-sm-12 d-flex flex-column align-items-center">
+                            <img src="./assets/imgs/Vecto2r.png"  alt="">
+                            <span class="text-center">Sở Giáo Dục,<br>Phòng Giáo Dục</span>
+                            <p class="text-center">Có hệ thống thư viện số chia sẻ được ấn phẩm số hóa xuống các trường</p>
+                            <p class="text-center">Quản lý, theo dõi hoạt động sử dụng thư viện của các trường</p>
+                        </div>
+                        <div class="benefit-infor bdb-yellow col-md-4 col-sm-12 d-flex flex-column align-items-center">
+                            <img src="./assets/imgs/logog-trg.png" alt="">
+                            <span class="text-center">Nhà trường</span>
+                            <p class="text-center">Quản lý tốt các ấn phẩm số hóa và ấn phẩm truyền thống</p>
+                            <p class="text-center">Liên thông, chia sẻ dữ liệu ấn phẩm giữa các trường</p>
+                            <p class="text-center">Giảm tải công tác quản lý thư viện</p>
+                        </div>
+                        <div class="benefit-infor col-md-4 col-sm-12 d-flex flex-column align-items-center">
+                            <img src="./assets/imgs/logo-user.png" alt="">
+                            <span class="text-center">Người dùng</span>
+                            <p class="text-center">Học mọi lúc, mọi nơi. Tìm kiếm, tra cứu ấn phẩm dễ dàng</p>
+                            <p class="text-center">Mượn trả ấn phẩm dễ dàng</p>
+                            <p class="text-center">Sử dụng thường xuyên ấn phẩm, phục vụ các hoạt động dạy và học hằng ngày</p>
+                        </div>
+
+                </div>
+               
+            </div>
+            <div class="benefit d-flex flex-column justify-content-center align-items-center position-relative mt-30">
+                <div class="benefit-header d-flex flex-column justify-content-center align-items-center position-relative">
+                    <div class="d-flex justify-content-center"> 
+                        <h2>Các tính năng</h2>
+                        <h2>nổi bật</h2>
+                    </div>
+                    <span class="text-center">Có nhiều tính năng nổi bật thể hiện sự ưu việt của hệ thống</span>
+                    <img class="book-feature" src="./assets/imgs/book-2.png" alt="">
+                </div>
+
+                <div class="feature-content row">
+                    <div class="col-md-6 col-sm-12 ">
+                        <div class="feature-wrap d-flex">
+                            <div class="feature-img">
+                                <img src="./assets/imgs/feature 1.png" alt="">
+                            </div>
+                            <div class="feature-text">
+                                <span>Chức năng tiện ích cho bạn đọc</span>
+                                <p>Bạn đọc có thể tiếp cận tới ấn phẩm nhanh chóng, dễ dàng hơn khi có thể mượn đọc ấn phẩm online, quy trình mượn trả tại thư viện đơn giản</p>
+                            </div>
+                        </div>
+                        <div class="feature-wrap d-flex">
+                            <div class="feature-img">
+                                <img src="./assets/imgs/feature 1.png" alt="">
+                            </div>
+                            <div class="feature-text">
+                                <span>Chức năng báo cáo thống kê</span>
+                                <p>Hệ thống cung cấp đầy đủ các báo cáo phục vụ đắc lực cho ban giảm hiệu nhà trường và thủ thư trong quá trình theo dõi và quản lý thư viện</p>
+                            </div>
+                        </div>
+                        <div class="feature-wrap d-flex">
+                            <div class="feature-img">
+                                <img src="./assets/imgs/feature 1.png" alt="">
+                            </div>
+                            <div class="feature-text">
+                                <span>Hỗ trợ đa dạng các loại tệp tin</span>
+                                <p>Hệ thống hỗ trợ đa dạng các loại tệp online của ấn phẩm như PDF, epub, word, scorm, xAPI, … Hệ thống kết nối được với các thiết bị quản lý thư viện thông minh như máy quét mã vạch, cổng từ, …</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12">
+                        <div class="feature-wrap d-flex">
+                            <div class="feature-img">
+                                <img src="./assets/imgs/feature 1.png" alt="">
+                            </div>
+                            <div class="feature-text">
+                                <span>Chức năng liên thông, chia sẻ dữ liệu</span>
+                                <p>Liên thông, liên kết dữ liệu thư viện giữa Sở, Phòng, Trường và giữa các trường với nhau. Qua đó góp phần xây dựng hệ sinh thái dữ liệu mở về thư viện và mạng thông tin thư viện quốc gia.</p>
+                            </div>
+                        </div>
+                        <div class="row feature-study-wrap">
+                            <div class="col-6 feature-study">
+                                <img src="./assets/imgs/Group 122700.png" alt="">
+                                <img src="./assets/imgs/laptop-books-table-arrangement 1.png" alt="">
+                            </div>
+                            <div class="col-6 feature-study--last">
+                                <img src="./assets/imgs/high-angle-high-angle-tablet-books 1.png" alt="">
+                                <img src="./assets/imgs/young-students-learning-library-bookshelves 1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="background-feature">
+                    <img src="./assets/imgs/Mask group.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid introduce">
+            <div class="introduce-wrap">
+                <div class="row">
+                    <div class="col-sm-12 col-md-6">
+                        <div class="introduce-header d-flex align-items-end">
+                            <img src="./assets/imgs/Group 16.png" alt="">
+                            <span>HỆ SINH THÁI GIÁO DỤC THÔNG MINH VNEDU 4.0</span>
+                        </div>
+                        <p class="introduce-text">Hệ sinh thái giáo dục thông minh vnEdu 4.0 ứng dụng mạnh mẽ các xu hướng giáo dục hiện đại và các công nghệ 4.0. Nâng
+                        cao hiệu lực, hiệu quả quản lý và chất lượng giáo dục, lấy học sinh và giáo viên là trung tâm. Đây cũng là hệ sinh thái
+                        giáo dục chiếm thị phần lớn nhất Việt Nam.
+                        </p>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <div class="introduce-sub ">
+                                <span>30K+</span>
+                                <p>Trường học</p>
+                            </div>
+                            <div class="introduce-sub ">
+                                <span>800K+</span>
+                                <p>Giáo viên</p>
+                            </div>
+                            <div class="introduce-sub ">
+                                <span>8M+</span>
+                                <p>Học sinh</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-md-6 d-flex flex-column lign-items-center justify-content-center">
+                        <!-- <div class="introduce-cup d-flex align-items-center flex-column">
+                            <img src="./assets/imgs/cup1.png" alt="">
+                            <p class="text-center">2 danh hiệu <br>
+                                Sao Khuê 2019</p>
+                        </div>
+                        <div class="introduce-cup d-flex align-items-center flex-column">
+                            <img src="./assets/imgs/cup2.png" alt="">
+                            <p class="text-center">1 Giải vàng quốc tế <br>
+                                Stevie Awards IBA 2021</p>
+                        </div> -->
+                        <div class="introduce-header d-flex align-items-end" style="margin-left: 24px;">
+                            <img src="./assets/imgs/cup-gold.png" alt="" style="width: auto !important;">
+                            <span>DANH HIỆU VÀ GIẢI THƯỞNG</span>
+                        </div>
+                        <ul class="introduce-list">
+                            <li>
+                                1. Danh hiệu Sao khuê 2020 - Giấy chứng nhận
+                            </li>
+                            <li>
+                               2. Giải thưởng Thành phố Thông minh Việt Nam 2020 - Giấy chứng nhận
+                            </li>
+                            <li>
+                                3. Giải Bạc SILVER WINNER IT World Award 2020
+                            </li>
+                            <li>
+                                4. Giải thưởng về thu hẹp khoảng cách số, VietNam Digital Awards 2020
+                            </li>
+                            <li>
+                               5. ASEAN ICT Awards 2021 - Giải Bạc (Silver) hạng mục CORPORATE SOCIAL RESPONSIBILITY
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="container-fluid d-flex flex-column justify-content-center align-items-center p-0 ">
+            <div class="contact-line container-fluid d-flex justify-content-center">
+                <div class="row contact d-flex justify-content-center">
+                    <div class="contact-img col-md-3 col-sm-12 ">
+                        <img src="./assets/imgs/logo-footer.png" alt="">
+                    </div>
+                    <div class="col-md-4 col-sm-12 d-flex justify-content-center ">
+                        <ul class="contact-address">
+                            <li class="d-flex">
+                                <img src="./assets/imgs/adress.png" alt="">
+                                <a href="">CQ chủ quản: 97 Đường Nguyễn Chí Thanh, Láng Hạ, Đống Đa, Hà Nội </a>
+                            </li>
+                            
+                            <li class="d-flex">
+                                <img src="./assets/imgs/phone.png" alt="">
+                                <a href="">18001260 (Miễn phí)</a>
+                            </li>
+                            <li class="d-flex">
+                                <img src="./assets/imgs/icon@.png" alt="">
+                                <a href="">hotline@vnedu.vn</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-sm-12 d-flex justify-content-center">
+                        <ul class="contact-address ">
+                            <li class="d-flex">
+                                <a href="https://vnpt.com.vn/tin-tuc/vnedu-he-sinh-thai-giao-duc-so-toan-dien.html">Giới thiệu</a>
+                            </li>
+                            <li class="d-flex">
+                                <a href="https://vnpt.com.vn/tin-tuc/vnedu-he-sinh-thai-giao-duc-so-toan-dien.html">Hướng dẫn sử dụng</a>
+                            </li>
+                            <li class="d-flex">
+                                <a href="http://thuvienso-sandbox.vnpt.edu.vn/term">Điều khoản sử dụng</a>
+                            </li>
+                            <li class="d-flex">
+                                <a href="http://thuvienso-sandbox.vnpt.edu.vn/question">Câu hỏi thường gặp</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-12 d-flex justify-content-end">
+                        <ul class="contact-address ">
+                            <li class="d-flex">
+                                <a href="#">
+                                    <img src="./assets/imgs/facebook 1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="d-flex">
+                                <a href="#">
+                                    <img src="./assets/imgs/telegram 1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="d-flex">
+                                <a href="#">
+                                    <img src="./assets/imgs/youtube 1.png" alt="">
+                                </a>
+                            </li>
+                            <li class="d-flex">
+                                <a href="#">
+                                    <img src="./assets/imgs/gmail (1) 1.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright d-flex align-items-center">
+                <span>Sản phẩm bởi</span>
+                <img src="./assets/imgs/copyright.png" alt="">
+            </div>
+        </footer>
+    </div>
+
+    <script src="./assets/bootstrap-5.3.0/js/bootstrap.js"></script>
+</body>
+</html>
